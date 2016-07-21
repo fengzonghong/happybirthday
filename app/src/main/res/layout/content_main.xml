@@ -13,28 +13,43 @@
         android:layout_height="wrap_content"
         android:scaleType="centerCrop"
         android:src="@drawable/chey" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/qinghuai" />
+    <ImageView
+        android:layout_width="600dp"
+        android:layout_height="350dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/yangtz" />
+
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="36dp"
-        android:text="Happy birthday,Mathew!" />
+        android:text="Happy birthday,Mathew!"
+        android:textColor="#15e642" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="36dp"
         android:text="Sincerely Bill"
-        android:layout_alignParentBottom="true"
+        android:id="@+id/tv"
+        android:textColor="#c92dda"
+        android:layout_marginBottom="71dp"
+        android:layout_above="@+id/button"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="57dp"
-        android:id="@+id/tv"/>
+        android:layout_alignParentStart="true" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/button"
         android:layout_alignParentBottom="true"
-        android:layout_centerInParent="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="oil"/>
 
 </RelativeLayout>
